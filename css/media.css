@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1200px){
+    .header{
+        padding: 5px;
+    }
+    .header-logo{
+        width: 20%;
+        height: auto;
+    }
+    .menu-list{
+        display: block;
+    }
+    .menu-link{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .menu-list-item:nth-child(n + 2) {
+        margin-left: 0;
+    }
+    .project-header{
+        display: block;
+        width: 100%;
+    }
+   .preview-header{
+       width: 100%;
+       margin-bottom: 30px;
+   }
+    .preview-info{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .container{
+        display: flex;
+        width: 90%;
+        align-items: flex-end;
+    }
+    .header-logo{
+        width: 30%;
+        height: auto;
+    }
+    .menu-header{
+        width: 30%;
+    }
+}
